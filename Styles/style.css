@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+
+.header{
+    position: relative;
+    text-align: center;
+}
+
+.header-background{
+    width: 100%;
+    opacity: 0.5;
+}
+
+.title{
+    top: 45%;
+    left: 50%;
+    font-weight: bold;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: 'Shizuru', cursive;
+    font-size: 60px;
+}
+
+.topic-title{
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    background-color: rgba(241, 131, 131, 0.664);
+    color:black;
+}
+
+.subtitle{
+    position: absolute;
+    text-align: center;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+.positioning{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+hr{
+    margin-top: -1;
+    border: 2px solid rgb(75, 73, 73);
+    color:rgb(228, 11, 47);
+    border-top-style: inset;
+}
+
+.avatar{
+    position: absolute;
+    height: 40px;
+    overflow: hidden;
+    display: block;
+}
+
+.line{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 10px solid black;
+}
+
+blockquote{
+    display:block;
+    background: #fff;
+    padding: 15px 20px 15px 45px;
+    margin: 0 0 20px;
+    position: relative;
+
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #666;
+    text-align: justify;
+
+    border-left: 15px solid rgba(241, 131, 131, 0.664);
+    border-right: 2px solid rgba(241, 131, 131, 0.664);
+}
+
+.main-menu{
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu-item{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px 15px;
+}
+
+.menu-item:hover{
+    background-color: white;
+    color: black;
+}
+
+.menu-item-active{
+    background-color: rgb(250, 174, 199);
+    color: black;
+}
+
+.grid-background{
+    background-image: url('Images/morecats.png');
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box{
+    border-style: inset;
+    justify-content: space-around;
+    display: inline;
+
+    font-family: 'Quicksand', sans-serif;
+    padding: 5px;
+}
+
+.middlebox{
+    border-style: inset;
+    justify-content: space-around;
+    display: inline;
+
+    font-family: 'Quicksand', sans-serif;
+    padding: 5px;
+}
+
+.rightbox{
+    border-style: inset;
+    justify-content: space-around;
+    display: inline;
+    
+    font-family: 'Quicksand', sans-serif;
+    padding: 5px;
+}
+
+.box1{
+    text-align: left;
+    color: black;
+}
+
+.box1-title{
+    font-size: 22px;
+    color:black;
+    background-color: rgba(241, 131, 131, 0.664);
+}
+
+.box1-subtitle{
+    text-align: center;
+    font-size: 18px;
+}
+
+.box1-text{
+    text-align: justify;
+    font-size: 17px;
+}
+
+.general-text{
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.footer{
+    font-family: 'Quicksand', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+@media(max-width:768px){
+    .header{
+        width: 150%;
+    }
+    .menu-item{
+        width: 10%;
+    }
+    .title{
+        width: 100%;
+        font-size: 90%;
+    }
+    .subtitle{
+        width: 100%;
+        font-size: 40%;
+    }
+    
+    .main-menu{
+        width: 150%;
+    }
+
+    .line{
+        width: 150%;
+    }
+
+    .grid-container{
+        width: 150%;
+        font-size: 85%;
+    }
+
+    .box1-text{
+        font-size: 125%;
+    }
+
+    .box1-title{
+        font-size: 125%;
+    }
+    .box1-gif{
+        height: 40px;
+        width: auto;
+    }   
+}
+
+@media (max-width: 990px){
+    .title{
+        font-size: 150%;
+    }
+    .subtitle{
+        font-size: 120%;
+    }
+}
+
+@media (min-width: 990px){
+    .title{
+        font-size: 275%;
+    }
+    .subtitle{
+        font-size: 120%;
+    }
+}
