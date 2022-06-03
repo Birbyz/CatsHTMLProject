@@ -1,0 +1,19 @@
+{
+    "cats": [
+        {
+            "id": "89256140-105e-11ea-983f-f5983827844a",
+            "name": "Mâț",
+            "img": "D:/Facultate/Anul I/Semestrul II/Tehnici Web/Cats HTML Project/front-end/Images/mata.jpeg"
+        },
+        {
+            "id": "898c1250-105e-11ea-983f-f5983827844a",
+            "name": "Ricky",
+            "img": "D:/Facultate/Anul I/Semestrul II/Tehnici Web/Cats HTML Project/front-end/Images/Pisic vlad.jpeg"
+        },
+        {
+            "name": "Capițu capibara",
+            "img": "https://i.kym-cdn.com/photos/images/original/002/237/368/c2e.jpg",
+            "id": "74b7e91e-6e74-49cd-994a-2f4c959aca0d"
+        }
+    ]
+}
