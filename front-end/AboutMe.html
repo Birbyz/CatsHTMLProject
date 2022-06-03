@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Shizuru&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Shadows+Into+Light&family=Shizuru&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand:wght@300&family=Shadows+Into+Light&family=Shizuru&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href ="Styles/style.css">
+        <link rel="stylesheet" href ="Styles/aboutme.css">
+        <title> Meow Me! </title>
+    </head>
+
+
+    <body>
+        <!--Top Navigation Bar-->
+        <nav class = "main-menu">
+            <a class="menu-item " href="Cats.html">Home</a>
+            <a class="menu-item menu-item-active" href="AboutMe.html">About Me</a>
+            <a class="menu-item" href="MyCat.html">My <i>Furr</i>-iend</a>
+            <a class="menu-item" href="Contact.html">Contact</a>  
+        </nav>
+
+        <!--Header-->
+        <header>
+            <div class = "header">
+                <img src='Images/bg.png' class="header-background">
+                <div class = "title"><h1>B I R B Y Z</h1></div>
+                <div class = "subtitle"><h2>&#x2728;"All you need is love and a cat."</h2></div>
+            </div>
+        </header>
+
+        <hr>
+
+        <!--Comments Section-->
+       <div class="topic-title"> Let me meet your cat. </div>
+       <br>
+       <br>
+       <center>
+        <input id = "name" class = "input" placeholder = "Name">
+        <input id = "url" class = "input" placeholder = "Image URL">
+        <button id = "addcat" class = "post" onclick = "addcat()">Add</button>
+        <button id = "updatecat" class = "post" onclick = "updatecat()">Update</button>
+        </center>
+        <br>
+        <br>
+        <script src="script.js"></script>
+        <script src="Scripts/code.js"></script>
+    </body>
+</html>
